@@ -56,7 +56,7 @@ std::vector<std::vector<double> > read_dipoles(const std::string& file, std::siz
     }
     return D;
 }
-/*
+
 
 //-----------------------------------------------------------------
 //  Photo-electron spectrum  (Gaussian broadening)
@@ -126,6 +126,6 @@ namespace spectrum{
         }
     }
 } // namespace spectrum
-*/
+
 
 #endif // PROPAGATE_HPP

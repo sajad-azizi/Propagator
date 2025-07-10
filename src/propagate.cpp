@@ -16,7 +16,7 @@ double l2norm(const std::vector<cxd>& v){
     return std::sqrt(s);
 }
 
-//–––––––– physical constants 
+//–––––––– physical constants
 constexpr double au_time_fs = 0.02418884326505;// 1 a.u. time  in fs
 constexpr double I0_Wpcm2   = 3.50944506e16;
 
@@ -61,7 +61,7 @@ std::vector<cxd> propagate_step(const std::vector<double>& E,
 {
     cxd minus_i_dt{0.0, -dt};
     std::vector<cxd> Cnext = C;
-    
+
     std::vector<cxd> HtC = H_times_C(E, D, C, t, I_Wpcm2, T, omega);
     std::vector<cxd> term(HtC.size(), cxd{0.0, 0.0});
     for(int k = 0; k < HtC.size(); k++){
