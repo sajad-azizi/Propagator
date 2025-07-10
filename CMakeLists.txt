@@ -13,7 +13,7 @@ endif()
 
 # ── Source files ────────────────────────────────────────────────
 add_executable(propagate
-    propagate.cpp      # main program (includes propagate.hpp)
+    src/propagate.cpp      # main program (includes propagate.hpp)
 )
 
 # Optimise and warn reasonably
