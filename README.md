@@ -11,7 +11,10 @@ A time-propagation using C(t+dt) = \exp(-i dt H(t)) C(t)
 ## Download
 ```bash
 git clone https://github.com/sajad-azizi/Propagator.git
-tar -xvzf helium.tar.gz
+```
+#data
+```bash
+https://drive.google.com/file/d/1U7IXKatyMVzWkC6m71QK-CbedbWoPQwQ/view?usp=drive_link
 ```
 
 ## Build
