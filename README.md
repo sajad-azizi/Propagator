@@ -1,8 +1,6 @@
 # Propagator created: Wed 10. July 2025, 17:05 PM
 
-A time-propagation using
-\exp\bigl(-i\,\Delta t\,H(t)\bigr)
-
+A time-propagation using C(t+dt) = \exp(-i dt H(t)) C(t)
 ## Prerequisites
 
 - CMake ≥ 3.10
