@@ -7,6 +7,13 @@ A time-propagation using C(t+dt) = \exp(-i dt H(t)) C(t)
 - A C/C++ compiler
 - Make
 
+
+## Download
+```bash
+git clone https://github.com/sajad-azizi/Propagator.git
+tar -xvzf helium.tar.gz
+```
+
 ## Build
 
 ```bash
@@ -18,4 +25,5 @@ cd build
 cmake ..
 
 # 3. Compile (use all cores)
-make -j$(nproc)
+make -j
+```
